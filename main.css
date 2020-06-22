@@ -1,9 +1,28 @@
-* {
-    border: 1px solid red;
+* {}
+
+body {
+    background-color: steelblue;
+}
+
+#inputContainer {
+    display: flex;
+}
+
+#inputContainer>div {
+    margin: auto;
+}
+
+#buttonContainer {
+    display: flex;
+}
+
+button {
+    margin: auto;
+    width: 100px;
 }
 
 p {
-    width: 45%;
+    width: 50%;
     margin: auto;
     font-size: 2rem;
 }

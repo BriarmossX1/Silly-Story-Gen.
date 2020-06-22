@@ -9,11 +9,27 @@
 </head>
 
 <body>
-    <div>
-        <label for="nameInput">Name:</label>
-        <input type="text" name="nameIn" id="nameIn" placeholder="(Optional)">
+    <div id="disclaimerContainer">
+        <h3>Disclaimer</h3>
+        <ul>
+            <li>The stories are in the male view(a.k.a. he, him, and his).</li>
+            <li>The default name is Bob.</li>
+            <ul>
+                <li>Adding a name to the input field will make that the default name until input field is emptied</li>
+                <li>Each time a different name is entered it's add to the name list that is randomly pulled from when there is no name in the input field.</li>
+            </ul>
+        </ul>
+    </div>
+    <div id="inputContainer">
+        <div>
+            <label for="nameInput">Name:</label>
+            <input type="text" name="nameIn" id="nameIn" placeholder="(Optional)">
+        </div>
+    </div>
+    <div id="buttonContainer">
         <button class="randStory" onclick="getRandomStory()">Click Me</button>
     </div>
+
     <div>
         <p class="storyArea"></p>
     </div>
